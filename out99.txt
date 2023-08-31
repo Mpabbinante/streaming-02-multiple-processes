@@ -1,108 +1,100 @@
-2023-08-29 17:30:44,329 - INFO - ===============================================
-2023-08-29 17:30:44,329 - INFO - Starting fake streaming process.
-2023-08-29 17:30:44,329 - INFO - Starting to stream data from us-counties.csv to ('localhost', 9999).
-2023-08-29 17:30:44,329 - INFO - Opened for reading: us-counties.csv.
-2023-08-29 17:30:44,329 - INFO - Skipped header row: ['date', 'county', 'state', 'fips', 'cases', 'deaths']
-2023-08-29 17:30:44,334 - INFO - Sent: b'[2020-01-21, Snohomish, Washington, 53061, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:30:47,336 - INFO - Sent: b'[2020-01-22, Snohomish, Washington, 53061, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:30:50,337 - INFO - Sent: b'[2020-01-23, Snohomish, Washington, 53061, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:30:53,352 - INFO - Sent: b'[2020-01-24, Cook, Illinois, 17031, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:30:56,363 - INFO - Sent: b'[2020-01-24, Snohomish, Washington, 53061, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:30:59,363 - INFO - Sent: b'[2020-01-25, Orange, California, 06059, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:02,374 - INFO - Sent: b'[2020-01-25, Cook, Illinois, 17031, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:05,389 - INFO - Sent: b'[2020-01-25, Snohomish, Washington, 53061, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:08,402 - INFO - Sent: b'[2020-01-26, Maricopa, Arizona, 04013, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:11,405 - INFO - Sent: b'[2020-01-26, Los Angeles, California, 06037, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:14,420 - INFO - Sent: b'[2020-01-26, Orange, California, 06059, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:17,431 - INFO - Sent: b'[2020-01-26, Cook, Illinois, 17031, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:20,446 - INFO - Sent: b'[2020-01-26, Snohomish, Washington, 53061, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:23,458 - INFO - Sent: b'[2020-01-27, Maricopa, Arizona, 04013, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:26,459 - INFO - Sent: b'[2020-01-27, Los Angeles, California, 06037, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:29,466 - INFO - Sent: b'[2020-01-27, Orange, California, 06059, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:32,476 - INFO - Sent: b'[2020-01-27, Cook, Illinois, 17031, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:35,479 - INFO - Sent: b'[2020-01-27, Snohomish, Washington, 53061, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:38,488 - INFO - Sent: b'[2020-01-28, Maricopa, Arizona, 04013, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:41,489 - INFO - Sent: b'[2020-01-28, Los Angeles, California, 06037, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:44,495 - INFO - Sent: b'[2020-01-28, Orange, California, 06059, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:47,502 - INFO - Sent: b'[2020-01-28, Cook, Illinois, 17031, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:50,513 - INFO - Sent: b'[2020-01-28, Snohomish, Washington, 53061, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:53,520 - INFO - Sent: b'[2020-01-29, Maricopa, Arizona, 04013, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:56,526 - INFO - Sent: b'[2020-01-29, Los Angeles, California, 06037, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:31:59,531 - INFO - Sent: b'[2020-01-29, Orange, California, 06059, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:02,539 - INFO - Sent: b'[2020-01-29, Cook, Illinois, 17031, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:05,541 - INFO - Sent: b'[2020-01-29, Snohomish, Washington, 53061, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:08,556 - INFO - Sent: b'[2020-01-30, Maricopa, Arizona, 04013, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:11,557 - INFO - Sent: b'[2020-01-30, Los Angeles, California, 06037, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:14,562 - INFO - Sent: b'[2020-01-30, Orange, California, 06059, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:17,569 - INFO - Sent: b'[2020-01-30, Cook, Illinois, 17031, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:20,584 - INFO - Sent: b'[2020-01-30, Snohomish, Washington, 53061, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:23,593 - INFO - Sent: b'[2020-01-31, Maricopa, Arizona, 04013, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:26,608 - INFO - Sent: b'[2020-01-31, Los Angeles, California, 06037, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:29,612 - INFO - Sent: b'[2020-01-31, Orange, California, 06059, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:32,623 - INFO - Sent: b'[2020-01-31, Santa Clara, California, 06085, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:35,629 - INFO - Sent: b'[2020-01-31, Cook, Illinois, 17031, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:38,643 - INFO - Sent: b'[2020-01-31, Snohomish, Washington, 53061, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:41,643 - INFO - Sent: b'[2020-02-01, Maricopa, Arizona, 04013, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:44,654 - INFO - Sent: b'[2020-02-01, Los Angeles, California, 06037, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:47,657 - INFO - Sent: b'[2020-02-01, Orange, California, 06059, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:50,657 - INFO - Sent: b'[2020-02-01, Santa Clara, California, 06085, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:53,670 - INFO - Sent: b'[2020-02-01, Cook, Illinois, 17031, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:56,675 - INFO - Sent: b'[2020-02-01, Suffolk, Massachusetts, 25025, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:32:59,690 - INFO - Sent: b'[2020-02-01, Snohomish, Washington, 53061, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:02,696 - INFO - Sent: b'[2020-02-02, Maricopa, Arizona, 04013, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:05,706 - INFO - Sent: b'[2020-02-02, Los Angeles, California, 06037, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:08,717 - INFO - Sent: b'[2020-02-02, Orange, California, 06059, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:11,726 - INFO - Sent: b'[2020-02-02, San Francisco, California, 06075, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:14,726 - INFO - Sent: b'[2020-02-02, Santa Clara, California, 06085, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:17,737 - INFO - Sent: b'[2020-02-02, Cook, Illinois, 17031, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:20,751 - INFO - Sent: b'[2020-02-02, Suffolk, Massachusetts, 25025, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:23,751 - INFO - Sent: b'[2020-02-02, Snohomish, Washington, 53061, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:26,759 - INFO - Sent: b'[2020-02-03, Maricopa, Arizona, 04013, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:29,761 - INFO - Sent: b'[2020-02-03, Los Angeles, California, 06037, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:32,774 - INFO - Sent: b'[2020-02-03, Orange, California, 06059, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:35,774 - INFO - Sent: b'[2020-02-03, San Francisco, California, 06075, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:38,789 - INFO - Sent: b'[2020-02-03, Santa Clara, California, 06085, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:41,796 - INFO - Sent: b'[2020-02-03, Cook, Illinois, 17031, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:44,805 - INFO - Sent: b'[2020-02-03, Suffolk, Massachusetts, 25025, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:47,809 - INFO - Sent: b'[2020-02-03, Snohomish, Washington, 53061, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:50,822 - INFO - Sent: b'[2020-02-04, Maricopa, Arizona, 04013, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:53,835 - INFO - Sent: b'[2020-02-04, Los Angeles, California, 06037, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:56,841 - INFO - Sent: b'[2020-02-04, Orange, California, 06059, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:33:59,841 - INFO - Sent: b'[2020-02-04, San Francisco, California, 06075, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:34:02,851 - INFO - Sent: b'[2020-02-04, Santa Clara, California, 06085, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:34:05,861 - INFO - Sent: b'[2020-02-04, Cook, Illinois, 17031, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:34:08,865 - INFO - Sent: b'[2020-02-04, Suffolk, Massachusetts, 25025, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:34:11,876 - INFO - Sent: b'[2020-02-04, Snohomish, Washington, 53061, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:34:14,879 - INFO - Sent: b'[2020-02-05, Maricopa, Arizona, 04013, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:34:17,894 - INFO - Sent: b'[2020-02-05, Los Angeles, California, 06037, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:34:20,894 - INFO - Sent: b'[2020-02-05, Orange, California, 06059, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:34:23,908 - INFO - Sent: b'[2020-02-05, San Francisco, California, 06075, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:34:26,920 - INFO - Sent: b'[2020-02-05, Santa Clara, California, 06085, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:34:29,929 - INFO - Sent: b'[2020-02-05, Cook, Illinois, 17031, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:34:32,941 - INFO - Sent: b'[2020-02-05, Suffolk, Massachusetts, 25025, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:34:35,944 - INFO - Sent: b'[2020-02-05, Snohomish, Washington, 53061, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:34:38,945 - INFO - Sent: b'[2020-02-05, Dane, Wisconsin, 55025, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:34:41,947 - INFO - Sent: b'[2020-02-06, Maricopa, Arizona, 04013, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:34:44,958 - INFO - Sent: b'[2020-02-06, Los Angeles, California, 06037, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:34:47,973 - INFO - Sent: b'[2020-02-06, Orange, California, 06059, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:34:50,978 - INFO - Sent: b'[2020-02-06, San Francisco, California, 06075, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:34:53,988 - INFO - Sent: b'[2020-02-06, Santa Clara, California, 06085, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:34:57,000 - INFO - Sent: b'[2020-02-06, Cook, Illinois, 17031, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:35:00,001 - INFO - Sent: b'[2020-02-06, Suffolk, Massachusetts, 25025, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:35:03,010 - INFO - Sent: b'[2020-02-06, Snohomish, Washington, 53061, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:35:06,018 - INFO - Sent: b'[2020-02-06, Dane, Wisconsin, 55025, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:35:09,033 - INFO - Sent: b'[2020-02-07, Maricopa, Arizona, 04013, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:35:12,036 - INFO - Sent: b'[2020-02-07, Los Angeles, California, 06037, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:35:15,051 - INFO - Sent: b'[2020-02-07, Orange, California, 06059, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:35:18,061 - INFO - Sent: b'[2020-02-07, San Francisco, California, 06075, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:35:21,068 - INFO - Sent: b'[2020-02-07, Santa Clara, California, 06085, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:35:24,078 - INFO - Sent: b'[2020-02-07, Cook, Illinois, 17031, 2, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:35:27,087 - INFO - Sent: b'[2020-02-07, Suffolk, Massachusetts, 25025, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:35:30,089 - INFO - Sent: b'[2020-02-07, Snohomish, Washington, 53061, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:35:33,102 - INFO - Sent: b'[2020-02-07, Dane, Wisconsin, 55025, 1, 0]' on port 9999. Hit CTRL-c to stop.
-2023-08-29 17:35:36,104 - INFO - Sent: b'[2020-02-08, Maricopa, Arizona, 04013, 1, 0]' on port 9999. Hit CTRL-c to stop.
-Traceback (most recent call last):
-  File "c:\Users\mpabb\44671-80\streaming-02-multiple-processes\process_streaming_output99.py", line 94, in <module>
-    stream_row(INPUT_FILE_NAME, ADDRESS_TUPLE)
-  File "c:\Users\mpabb\44671-80\streaming-02-multiple-processes\process_streaming_output99.py", line 87, in stream_row
-    time.sleep(3) # wait 3 seconds between messages
+date,county,state,fips,cases,deaths
+2020-01-21,Snohomish,Washington,53061,1,0
+2020-01-22,Snohomish,Washington,53061,1,0
+2020-01-23,Snohomish,Washington,53061,1,0
+2020-01-24,Cook,Illinois,17031,1,0
+2020-01-24,Snohomish,Washington,53061,1,0
+2020-01-25,Orange,California,06059,1,0
+2020-01-25,Cook,Illinois,17031,1,0
+2020-01-25,Snohomish,Washington,53061,1,0
+2020-01-26,Maricopa,Arizona,04013,1,0
+2020-01-26,Los Angeles,California,06037,1,0
+2020-01-26,Orange,California,06059,1,0
+2020-01-26,Cook,Illinois,17031,1,0
+2020-01-26,Snohomish,Washington,53061,1,0
+2020-01-27,Maricopa,Arizona,04013,1,0
+2020-01-27,Los Angeles,California,06037,1,0
+2020-01-27,Orange,California,06059,1,0
+2020-01-27,Cook,Illinois,17031,1,0
+2020-01-27,Snohomish,Washington,53061,1,0
+2020-01-28,Maricopa,Arizona,04013,1,0
+2020-01-28,Los Angeles,California,06037,1,0
+2020-01-28,Orange,California,06059,1,0
+2020-01-28,Cook,Illinois,17031,1,0
+2020-01-28,Snohomish,Washington,53061,1,0
+2020-01-29,Maricopa,Arizona,04013,1,0
+2020-01-29,Los Angeles,California,06037,1,0
+2020-01-29,Orange,California,06059,1,0
+2020-01-29,Cook,Illinois,17031,1,0
+2020-01-29,Snohomish,Washington,53061,1,0
+2020-01-30,Maricopa,Arizona,04013,1,0
+2020-01-30,Los Angeles,California,06037,1,0
+2020-01-30,Orange,California,06059,1,0
+2020-01-30,Cook,Illinois,17031,2,0
+2020-01-30,Snohomish,Washington,53061,1,0
+2020-01-31,Maricopa,Arizona,04013,1,0
+2020-01-31,Los Angeles,California,06037,1,0
+2020-01-31,Orange,California,06059,1,0
+2020-01-31,Santa Clara,California,06085,1,0
+2020-01-31,Cook,Illinois,17031,2,0
+2020-01-31,Snohomish,Washington,53061,1,0
+2020-02-01,Maricopa,Arizona,04013,1,0
+2020-02-01,Los Angeles,California,06037,1,0
+2020-02-01,Orange,California,06059,1,0
+2020-02-01,Santa Clara,California,06085,1,0
+2020-02-01,Cook,Illinois,17031,2,0
+2020-02-01,Suffolk,Massachusetts,25025,1,0
+2020-02-01,Snohomish,Washington,53061,1,0
+2020-02-02,Maricopa,Arizona,04013,1,0
+2020-02-02,Los Angeles,California,06037,1,0
+2020-02-02,Orange,California,06059,1,0
+2020-02-02,San Francisco,California,06075,2,0
+2020-02-02,Santa Clara,California,06085,2,0
+2020-02-02,Cook,Illinois,17031,2,0
+2020-02-02,Suffolk,Massachusetts,25025,1,0
+2020-02-02,Snohomish,Washington,53061,1,0
+2020-02-03,Maricopa,Arizona,04013,1,0
+2020-02-03,Los Angeles,California,06037,1,0
+2020-02-03,Orange,California,06059,1,0
+2020-02-03,San Francisco,California,06075,2,0
+2020-02-03,Santa Clara,California,06085,2,0
+2020-02-03,Cook,Illinois,17031,2,0
+2020-02-03,Suffolk,Massachusetts,25025,1,0
+2020-02-03,Snohomish,Washington,53061,1,0
+2020-02-04,Maricopa,Arizona,04013,1,0
+2020-02-04,Los Angeles,California,06037,1,0
+2020-02-04,Orange,California,06059,1,0
+2020-02-04,San Francisco,California,06075,2,0
+2020-02-04,Santa Clara,California,06085,2,0
+2020-02-04,Cook,Illinois,17031,2,0
+2020-02-04,Suffolk,Massachusetts,25025,1,0
+2020-02-04,Snohomish,Washington,53061,1,0
+2020-02-05,Maricopa,Arizona,04013,1,0
+2020-02-05,Los Angeles,California,06037,1,0
+2020-02-05,Orange,California,06059,1,0
+2020-02-05,San Francisco,California,06075,2,0
+2020-02-05,Santa Clara,California,06085,2,0
+2020-02-05,Cook,Illinois,17031,2,0
+2020-02-05,Suffolk,Massachusetts,25025,1,0
+2020-02-05,Snohomish,Washington,53061,1,0
+2020-02-05,Dane,Wisconsin,55025,1,0
+2020-02-06,Maricopa,Arizona,04013,1,0
+2020-02-06,Los Angeles,California,06037,1,0
+2020-02-06,Orange,California,06059,1,0
+2020-02-06,San Francisco,California,06075,2,0
+2020-02-06,Santa Clara,California,06085,2,0
+2020-02-06,Cook,Illinois,17031,2,0
+2020-02-06,Suffolk,Massachusetts,25025,1,0
+2020-02-06,Snohomish,Washington,53061,1,0
+2020-02-06,Dane,Wisconsin,55025,1,0
+2020-02-07,Maricopa,Arizona,04013,1,0
+2020-02-07,Los Angeles,California,06037,1,0
+2020-02-07,Orange,California,06059,1,0
+2020-02-07,San Francisco,California,06075,2,0
+2020-02-07,Santa Clara,California,06085,2,0
+2020-02-07,Cook,Illinois,17031,2,0
+2020-02-07,Suffolk,Massachusetts,25025,1,0
+2020-02-07,Snohomish,Washington,53061,1,0
+2020-02-07,Dane,Wisconsin,55025,1,0
+2020-02-08,Maricopa,Arizona,04013,1,0
+2020-02-08,Los Angeles,California,06037,1,0
